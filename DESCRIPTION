@@ -1,15 +1,13 @@
 Package: ondiscdata
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Data for the `ondisc` package
+Version: 0.0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Tim",
+           family = "Barry",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "tbarry2@andrew.cmu.edu")
+Description: This package contains data for use in examples and vignettes of the `ondisc` package. All datasets are single-cell datasets, stored in HDF5 (.h5), matrix market (.mtx), or ondisc (.odm) format.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

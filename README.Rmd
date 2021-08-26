@@ -1,0 +1,27 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ondiscdata
+
+## Installation
+
+This package contains data for use in examples and vignettes of the `ondisc` package. All datasets are single-cell datasets, stored in HDF5 (.h5), matrix market (.mtx), or ondisc (.odm) format.
+
+Install the package from Github via the following command:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Katsevich-Lab/ondiscdata")
+```
