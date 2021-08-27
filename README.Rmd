@@ -104,3 +104,6 @@ system.file("extdata", "h5_list/batch-1_1.h5", package = "ondiscdata")
 1. Xie, Shiqi, et al. "Global analysis of enhancer targets reveals convergent enhancer-driven regulatory modules." Cell reports 29.9 (2019): 2570-2578. [Raw data link](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE129837).
 
 2. 500 Human PBMCs, 3' LT v3.1, Chromium X. Single Cell Gene Expression Dataset by Cell Ranger 6.1.0. [Raw data link](https://www.10xgenomics.com/resources/datasets/500-human-pbm-cs-3-lt-v-3-1-chromium-x-3-1-standard-6-1-0).
+
+-----
+[Tim Barry](https://github.com/timothy-barry)

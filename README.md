@@ -102,3 +102,7 @@ To access `h5_list/batch-1_1.h5`, use
 2.  500 Human PBMCs, 3’ LT v3.1, Chromium X. Single Cell Gene Expression
     Dataset by Cell Ranger 6.1.0. [Raw data
     link](https://www.10xgenomics.com/resources/datasets/500-human-pbm-cs-3-lt-v-3-1-chromium-x-3-1-standard-6-1-0).
+
+-----
+
+[Tim Barry](https://github.com/timothy-barry)
