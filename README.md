@@ -13,7 +13,7 @@ Install the package from Github via the following command:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Katsevich-Lab/ondiscdata")
+devtools::install_github("katsevich-lab/ondiscdata")
 ```
 
 ## Data overview
@@ -63,23 +63,22 @@ The tree structure of the data directory is as follows:
         │   └── matrix.rds
         └── source
 
-  - **h5\_list**: Data on 58382 genes and 32727 cells spread across
-    three HDF5 (.h5) files. Each file contains a different subset of
-    cells (11523, 10379, and 10825 cells per file).
+-   **h5_list**: Data on 58382 genes and 32727 cells spread across three
+    HDF5 (.h5) files. Each file contains a different subset of cells
+    (11523, 10379, and 10825 cells per file).
 
-  - **mtx**: Data on 36601 genes and 587 cells in matrix market (.mtx)
+-   **mtx**: Data on 36601 genes and 587 cells in matrix market (.mtx)
     format.
 
-  - **mtx\_list**: Data on 10000 genes and 7500 cells spread across
-    three .mtx files (2000, 3000, and 2500 cells per file). These data
-    are synthetic.
+-   **mtx_list**: Data on 10000 genes and 7500 cells spread across three
+    .mtx files (2000, 3000, and 2500 cells per file). These data are
+    synthetic.
 
-  - **odm**: An `ondisc` matrix of gene expression data collected on
+-   **odm**: An `ondisc` matrix of gene expression data collected on
     58382 genes and 2000 cells, and an `ondisc` matrix of gRNA
     indicators collected on 516 gRNAs and the same 2000 cells.
 
-  - **r\_matrix**: The same data as above, but stored in R matrix
-    format.
+-   **r_matrix**: The same data as above, but stored in R matrix format.
 
 ## Accessing the data
 
@@ -103,6 +102,6 @@ To access `h5_list/batch-1_1.h5`, use
     Dataset by Cell Ranger 6.1.0. [Raw data
     link](https://www.10xgenomics.com/resources/datasets/500-human-pbm-cs-3-lt-v-3-1-chromium-x-3-1-standard-6-1-0).
 
------
+------------------------------------------------------------------------
 
 [Tim Barry](https://github.com/timothy-barry)

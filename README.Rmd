@@ -23,7 +23,7 @@ Install the package from Github via the following command:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Katsevich-Lab/ondiscdata")
+devtools::install_github("katsevich-lab/ondiscdata")
 ```
 
 ## Data overview
