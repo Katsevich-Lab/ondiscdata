@@ -44,4 +44,3 @@ odm <- create_ondisc_matrix_from_R_matrix(r_matrix = gRNA_exp,
                                           metadata_fp = to_save_metadata)
 odm <- odm |> ondisc::mutate_feature_covariates(gRNA_group = gRNA_groups)
 save_odm(odm = odm, metadata_fp = to_save_metadata)
-
